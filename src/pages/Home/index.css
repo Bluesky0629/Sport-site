@@ -1,0 +1,7 @@
+.home {
+    background-image: url('../../assets/images/backgroundShapes.png');
+    background-color: var(--bg-blue);
+    height: 100%;
+    padding: 0px 0px;
+}
+

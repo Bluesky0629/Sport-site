@@ -1,0 +1,18 @@
+.pool_title {
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 2rem;
+    padding: 0;
+    margin: 0;
+    margin-top: 30px;
+}
+.pool_header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.pool_header h5 {
+    text-decoration: underline;
+}
+

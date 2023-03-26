@@ -1,0 +1,36 @@
+.venues{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    padding-bottom: 40px;
+}
+.leaflet-container {
+    width: 70%;
+    height: 80vh;
+    margin-top: 30px;
+    border-radius: 25px;
+    margin: auto;
+    
+}
+.venues .slogan {
+    width: 69%;
+    padding: 30px 0px;
+    margin: auto;
+    color: #fff;
+    text-align: center;
+}
+@media(max-width: 768px) {
+    .venues{
+        grid-template-columns: repeat(1,1fr);
+        padding: 30px 20px;
+    }
+    .venues .slogan {
+        padding: 20px 0px;
+        width: 90% !important;
+    }
+    .leaflet-container {
+        border-radius: 25px;
+        width: 100% !important;
+        height: 50vh;
+    }
+}
+
